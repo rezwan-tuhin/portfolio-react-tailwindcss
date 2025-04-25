@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="relative bg-gray-900 text-white pt-32 pb-8">
       <div className="container mx-auto px-4 md:px-16 lg:px-24 flex flex-col md:flex-row justify-between items-center">
-        <a href='#'>
+        <a href='/'>
         <div className="flex items-center gap-3 mb-4 md:mb-0 cursor-pointer">
           <div className="bg-purple-500 rounded-full w-12 h-12 flex items-center justify-center font-bold">R</div>
           <span className="text-2xl font-semibold">Rezwan</span>
