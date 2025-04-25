@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-   <div className='bg-white'>
+   <div className='bg-white sticky top-0 z-50'>
      <div className='container mx-auto px-4 md:px-16 lg:px-24 h-[70px] py-2 flex justify-between items-center'>
         <a href='#'>
         <div className='flex space-x-2 cursor-pointer'>
@@ -13,7 +13,7 @@ function Navbar() {
 
       <div>
         <ul className='flex space-x-2'>
-          <a href='#'><li className='px-6 py-2 hover:bg-purple-500 hover:text-white hover:rounded-xs transition-hover duration-300'>Home</li></a>
+          <a href='/'><li className='px-6 py-2 hover:bg-purple-500 hover:text-white hover:rounded-xs transition-hover duration-300'>Home</li></a>
           <a href='#about'><li className='px-6 py-2 hover:bg-purple-500 hover:text-white hover:rounded-xs transition-hover duration-300'>About</li></a>
           <a href='#process'><li className='px-6 py-2 hover:bg-purple-500 hover:text-white hover:rounded-xs transition-hover duration-300'>Process</li></a>
           <a href='#projects'><li className='px-6 py-2 hover:bg-purple-500 hover:text-white hover:rounded-xs transition-hover duration-300'>Projects</li></a>
